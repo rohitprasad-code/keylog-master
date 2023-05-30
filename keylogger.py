@@ -5,7 +5,7 @@ new_line = False
 is_holding_key = False
 
 def update(text):
-    with open(f"logs.txt", "a") as f:
+    with open(f"keylog.txt", "a") as f:
         f.write(text)
 
 
